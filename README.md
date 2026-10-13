@@ -1,40 +1,37 @@
 # Overtone and Timbre — beta releases
 
-Overtone draws mods in Wuthering Waves on DirectX 12. Timbre is its mod manager: it installs your mods, keeps
-Overtone current and starts the game with it.
+Overtone is a mod loader for Wuthering Waves on DirectX 12. Timbre is its mod manager.
 
-This repository holds the beta's releases only. The source code will be published when Overtone leaves beta.
+This repository hosts beta builds only. Source code will be published at 1.0.
 
-**Guides and download: [ivanlisovyi.github.io/overtone-releases](https://ivanlisovyi.github.io/overtone-releases/)**
+**Download and guides: [ivanlisovyi.github.io/overtone-releases](https://ivanlisovyi.github.io/overtone-releases/)**
 
 ## Install
 
 1. Download `Timbre_<version>_x64-setup.exe` from the [latest Timbre release](../../releases?q=timbre&expanded=true).
-2. Run it. It installs for your Windows user alone and needs no administrator.
-3. Open Timbre and follow its first setup.
+2. Run it. Per-user install, no administrator rights.
+3. Complete Timbre's first setup.
 
-Timbre fetches Overtone itself and keeps both current: when a newer Timbre is ready, an **Update** button appears
-in its top bar.
+Timbre downloads Overtone and keeps both up to date.
 
-These builds are not yet signed. Windows may say it protected your PC on the first run: choose **More info**, then
-**Run anyway**. On a PC with Smart App Control on, the game cannot load Overtone until the builds are signed.
+Builds are unsigned. At the SmartScreen prompt, choose **More info**, then **Run anyway**. With Smart App Control on,
+the game cannot load Overtone until builds are signed.
 
-## Without Timbre
+## Releases
 
-- **Overtone**: the `runtime-v…` releases hold the runtime's files.
-- **MCP server**: `overtone-mcp.exe` in the `mcp-v…` releases connects an AI client to your mods.
+| Tag | Contents |
+| :--- | :--- |
+| `timbre-v…` | Timbre installer |
+| `runtime-v…` | Overtone runtime |
+| `mcp-v…` | `overtone-mcp.exe`, an MCP server for AI clients |
 
-## Versions
-
-Each product has its own version: the day it was released and how many came before it that day (`26.1013.0`).
-Every release carries `index.toml`, signed, which lists every release and which versions work together. Timbre reads
-it to choose the runtime that matches it.
+Versions are `YY.MMDD.N`. Each release includes a signed `index.toml` listing every release and which versions work
+together.
 
 ## Terms
 
-The builds are under the beta terms in each release's `TERMS.txt`: free to use, not to redistribute. Each release's
-`NOTICES.txt` lists the third-party components it includes and their licences.
+Free to use, not for redistribution: see `TERMS.txt` in each release. Third-party licences are in `NOTICES.txt`.
 
-## Problems
+## Issues
 
-Open an issue here with what you did, what happened, and Timbre's diagnostics bundle (Settings → Diagnostics).
+Open an issue with the steps to reproduce and Timbre's diagnostics archive (Settings → Diagnostics).
