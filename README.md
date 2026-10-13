@@ -5,6 +5,8 @@ Overtone current and starts the game with it.
 
 This repository holds the beta's releases only. The source code will be published when Overtone leaves beta.
 
+**Guides and download: [ivanlisovyi.github.io/overtone-releases](https://ivanlisovyi.github.io/overtone-releases/)**
+
 ## Install
 
 1. Download `Timbre_<version>_x64-setup.exe` from the [latest Timbre release](../../releases?q=timbre&expanded=true).
