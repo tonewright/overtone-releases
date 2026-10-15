@@ -1,0 +1,44 @@
+name: Problem
+description: Something does not draw right, the game crashed, or Timbre misbehaved.
+labels: ["from-form"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem
+      options:
+        - Game crashed
+        - Mod looks wrong
+        - Timbre acting up
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did and what you saw.
+      placeholder: Her hair is missing after I switch outfits
+    validations:
+      required: true
+  - type: input
+    id: mod
+    attributes:
+      label: Which mod
+      description: Leave empty if no mod is involved.
+  - type: input
+    id: versions
+    attributes:
+      label: Timbre version
+      description: Settings → About.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Drag your report file onto the box below. In Timbre, **Settings → Runtime → Diagnostics → Report a problem** makes it for you.
+  - type: textarea
+    id: file
+    attributes:
+      label: Report file
+      description: Drag overtone-report.zip here.
