@@ -5,8 +5,9 @@
 <h3 align="center">Your Wuthering Waves mods on DirectX 12, all in one app.</h3>
 
 <p align="center">
-  <a href="https://tonewright.github.io/overtone-releases/"><img src="https://img.shields.io/github/v/release/tonewright/overtone-releases?filter=Timbre*&display_name=release&label=Download&labelColor=161920&color=d9c08a&style=for-the-badge" alt="Download Timbre"></a>
-  <a href="https://tonewright.github.io/overtone-releases/#guides"><img src="https://img.shields.io/badge/Guides-161920?style=for-the-badge" alt="Guides"></a>
+  <a href="https://tonewright.github.io/"><img src="https://img.shields.io/github/v/release/tonewright/overtone-releases?filter=Timbre*&display_name=release&label=Download&labelColor=161920&color=d9c08a&style=for-the-badge" alt="Download Timbre"></a>
+  <a href="https://tonewright.github.io/guides.html"><img src="https://img.shields.io/badge/Guides-161920?style=for-the-badge" alt="Guides"></a>
+  <a href="https://discord.gg/QrD7CSGAbC"><img src="https://img.shields.io/badge/Discord-161920?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/tonewright/overtone-releases/issues"><img src="https://img.shields.io/badge/Report%20a%20problem-161920?style=for-the-badge" alt="Report a problem"></a>
 </p>
 
@@ -42,11 +43,12 @@
 
 ## Get started
 
-1. [Download Timbre](https://tonewright.github.io/overtone-releases/) and run the setup. It installs for you alone, no administrator needed.
+1. [Download Timbre](https://tonewright.github.io/) and run the setup. It installs for you alone, no administrator needed.
 2. Follow Timbre's first setup. It finds the game for you.
 3. Press **Play**. Timbre brings Overtone with it.
 
-Windows 10 or 11.
+Windows 10 or 11. The [Getting started](https://tonewright.github.io/getting-started.html) guide walks through it,
+and [Coming from WWMI](https://tonewright.github.io/from-wwmi.html) says what changes for the mods you have.
 
 > [!NOTE]
 > Beta builds are not signed yet. When Windows SmartScreen stops the setup, choose **More info**, then **Run anyway**.
@@ -54,8 +56,13 @@ Windows 10 or 11.
 
 ## Something wrong?
 
-[Open an issue](https://github.com/tonewright/overtone-releases/issues/new) with what you did and what you saw.
-Attach `overtone.log` from `%LOCALAPPDATA%\Overtone\wuwa`, and a screenshot if it shows the problem.
+Most problems are answered in [When a mod does not draw right](https://tonewright.github.io/troubleshoot.html).
+
+To report one, press **Report** at the foot of Timbre's left bar: it saves a report file and opens an issue here with
+your note filled in. Without Timbre, [open an issue](https://github.com/tonewright/overtone-releases/issues/new) and
+attach `overtone.log` from `%LOCALAPPDATA%\Overtone\wuwa`.
+
+For questions, mods and what is coming next, join us on [Discord](https://discord.gg/QrD7CSGAbC).
 
 ## Beta
 
