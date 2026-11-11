@@ -67,7 +67,8 @@ For questions, mods and what is coming next, join us on [Discord](https://discor
 ## Beta
 
 Free to use, not for redistribution: the terms are in `TERMS.txt` in each release, third-party licences in
-`NOTICES.txt`. The source code will be published at 1.0.
+`NOTICES.txt`. The source is to be published under an open-source licence; `TERMS.txt` says what is and is not
+promised.
 
 <details>
 <summary>What each release holds</summary>
